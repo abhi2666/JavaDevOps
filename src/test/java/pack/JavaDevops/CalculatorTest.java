@@ -9,5 +9,10 @@ public class CalculatorTest extends TestCase {
 	 * TestAdd - not valid name
 	 * testAdd - Valid name
 	 */
+		Calculator c = new Calculator();
+		
+		public void testAdd() {
+			assertEquals(10, c.add(5, 5));
+		}
 	
 }
